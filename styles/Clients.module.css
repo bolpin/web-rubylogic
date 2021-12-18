@@ -1,0 +1,15 @@
+
+.container div {
+  text-align: center;
+  padding-top: 2rem;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.container div:hover {
+  opacity: 1;
+}
+
+.container div img:hover {
+  cursor: pointer;
+}
