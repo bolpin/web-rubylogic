@@ -1,5 +1,5 @@
 import { serverUrl } from '../config'
-// import Meta from '../components/Meta.js'
+import Meta from '../components/Meta.js'
 // import ArticleList from '../components/ArticleList'
 import homeStyles from '../styles/Home.module.css'
 
@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <div className={homeStyles.home}> 
         {/* <ArticleList articles={articles} /> */}
+        <Meta title='Rubylogic' />
         <h2>About</h2>
         <p>I create web applications and other custom software solutions for businesses.
         I&apos;ve helped companies large and small with the design and construction of fast, powerful web and database apps that are optimized for search engines and that can grow with your business.</p>

@@ -1,5 +1,6 @@
+import Meta from '../components/Meta.js'
 import TestimonialCard from '../components/TestimonialCard.js'
-import testimonialStyle from '../styles/Testimonial.module.css'
+import style from '../styles/Testimonial.module.css'
 
 export const testimonialList = [
   {
@@ -42,7 +43,8 @@ export const testimonialList = [
 const testimonials = (props) => {
   return (
     <>
-      <div className={testimonialStyle.grid}>
+      <Meta title='Testimonials' />
+      <div className={style.grid}>
         {
           testimonialList.map((testimonial) => (
             <TestimonialCard testimonial={testimonial} key={testimonial.id} />
