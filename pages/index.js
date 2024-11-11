@@ -6,7 +6,7 @@ import homeStyles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-      <div className={homeStyles.home}> 
+      <div className={homeStyles.home}>
         {/* <ArticleList articles={articles} /> */}
         <Meta title='Rubylogic' />
         <h2>About</h2>
